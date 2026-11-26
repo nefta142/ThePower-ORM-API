@@ -28,10 +28,6 @@ El sistema relaciona usuarios, artistas, canciones y géneros. Un género agrupa
 
 Las clases JPA están mapeadas con `@Entity`; la herencia `JOINED` relaciona Usuario y Artista. Cancion utiliza `@ManyToOne` para el género, mientras que `Colaboracion` utiliza una clave compuesta con `@IdClass`. Los repositorios utilizan `JpaRepository`; determinadas operaciones de gestión utilizan además `JdbcTemplate`.
 
-**Evidencia ORM:** [CAPTURA T1: entidades JPA en IntelliJ]
-
-**Evidencia de relaciones:** [CAPTURA T2: `SHOW CREATE TABLE colaboracion`]
-
 ## 5. API y pruebas
 
 Con PostMan podemos realizar las siguentes pruebas sobre la API 
