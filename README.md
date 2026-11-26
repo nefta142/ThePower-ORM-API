@@ -8,19 +8,19 @@ The Power es una aplicación de música desarrollada con React y Vite, Spring Bo
 
 ### 2.1. Entidad–Relación
 
-![Diagrama E/R](diagramas/modelo_er.png)
+![Diagrama E/R](documentacion/modelo_er.png)
 
 El sistema relaciona usuarios, artistas, canciones y géneros. Un género agrupa múltiples canciones; un artista puede colaborar en varias canciones y una canción puede tener varios artistas.
 
 ### 2.2. UML
 
-![Diagrama UML](diagramas/modelo_uml.png)
+![Diagrama UML](documentacion/modelo_uml.png)
 
 
 
 ### 2.3. Modelo relacional
 
-![Modelo relacional](diagramas/modelo_relacional.png)
+![Modelo relacional](documentacion/modelo_relacional.png)
 
 
 
@@ -54,5 +54,5 @@ Haremos in git clone importaremos la base datos adjuantada en este repositorio y
 
 ## 7. Documentos de uso
 
-- [Manual de instalación](../../Downloads/Manual_de_instalacion_The_Power.pdf)
-- [Manual de usuario](../../Downloads/Manual_de_usuario_The_Power.pdf)
+- [Manual de instalación](documentacion/Manual_de_instalacion_The_Power.pdf)
+- [Manual de usuario](documentacion/Manual_de_usuario_The_Power.pdf)
